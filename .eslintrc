@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "prettier",
+    "jest"
+  ],
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "prefer-destructuring": "off",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "linebreak-style": "off",
+    "eol-last": "off",
+    "no-console": "off"
+  }
+}
